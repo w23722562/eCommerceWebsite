@@ -1,0 +1,241 @@
+/*universal*/
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(189, 194, 196);
+}
+
+input {
+    padding: 6px;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#form-input {
+    position: relative;
+    border: 2px black solid;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    height: max-content;
+    padding: 20px
+}
+
+header {
+    height: max-content;
+    width: 100%;
+    background-color: rgb(3, 131, 186);
+    border-radius: 15px;
+    display: flex;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+#headerIcon {
+    position: relative;
+    height: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#headerIcon:hover {
+    cursor: pointer;
+}
+
+
+#alert {
+    position: relative;
+    text-align: center;
+}
+
+/*database view page*/
+#selection-icon {
+    height: 50px;
+}
+
+#indicator {
+    position: sticky;
+    padding: 2px;
+    top: 200px;
+    left: 90%;
+    background-color: lightgrey;
+    border: black 1px solid;
+    width: max-content;
+}
+
+#display-table {
+    background-color: aliceblue;
+}
+
+#admin-search {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    margin-bottom: 10px;
+}
+
+/*index page */
+#database-view-icon {
+    height: 200px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+#database-view-icon:hover {
+    cursor: pointer;;
+}
+
+/*display menu*/
+#back-button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: rgb(77, 134, 136);
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+#display-table {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: max-content;
+}
+
+#add_product {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: rgb(77, 134, 136);
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+}
+
+/*product edit page*/
+
+#update-button {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: rgb(77, 134, 136);
+    color: white;
+    border-radius: 4px;
+}
+
+#edit-form {
+    position: relative;
+    border: 1px solid black;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+/*product listing*/
+.productContainer {
+    border: 1px solid black;
+    min-width: 200px;
+    padding: 15px;
+    margin: 5px;
+    width: max-content;
+    height: max-content;
+    background-color: rgb(223, 226, 227);
+}
+
+.productFrame {
+    position: relative;
+    display: grid;
+    width: 1200px;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(189, 194, 196);
+}
+
+#buyButton {
+    position: relative;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+    left: 60%;
+    width: 80px;
+}
+
+#sideBar {
+    border-radius: 15px;
+    position: absolute;
+    height: 100%;
+    background-color: rgb(134, 162, 164);
+    width: 10%;
+}
+
+#sideBar-contents {
+    position: relative;
+    top: 30px;
+    left: 10px;
+
+}
+
+#toAdminButton {
+    position: relative;
+    padding: 4px;
+    background-color: rgb(77, 134, 136);
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+#shopping-cart {
+    height: 80px;
+    position: absolute;
+    right: 45px;
+    
+}
+
+#shopping-cart:hover {
+    cursor: pointer;
+}
+
+#basketTotal {
+    height: 80px;
+    position: absolute;
+    right: 200px;
+    font-size: 20px;
+}
+
+#basket-number {
+    position: absolute;
+    font-size: 30px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    right: 20px;
+
+}
+
+#open-basket {
+    position: absolute;
+    right: 60px;
+    z-index: 99;
+    display: none;
+    height: max-content;
+    width: 200px;
+    background-color: rgb(154, 181, 172);
+    border: 1px solid black;
+}
